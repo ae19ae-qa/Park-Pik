@@ -39,6 +39,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.Кассир</roles>
+  <roles>Role.ПолныеПрава</roles>
   <catalogs>Catalog.Аттракционы</catalogs>
   <documents>Document.ПосещениеАттракциона</documents>
   <documents>Document.ПродажаБилета</documents>
