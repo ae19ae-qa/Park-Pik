@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8421cc4d-3f9d-4b6f-a555-5b3a63f1306c">
+  <name>УправлениеПаркомПик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление парком Пик</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="638aa546-18b6-415e-81f7-7682b92ca146"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e13c7032-df60-465e-8bb7-83a937353292"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d1f39a7d-8bd0-4ec8-8007-5996640366a2"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="53715636-22d6-406e-aa98-434e9a2027e0"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3b160aae-7b03-409f-b0ab-98c64bd326e1"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5df79ead-3201-42a3-a837-d0f21c26d4fc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="fe8d2a99-b493-49ce-b808-830e8d0d0bd3"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="5e17a042-9ec5-4b6b-bc18-bac3f901e544">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Аттракционы</catalogs>
+  <documents>Document.ПосещениеАттракциона</documents>
+  <documents>Document.ПродажаБилета</documents>
+  <reports>Report.Продажи</reports>
+  <reports>Report.СтатистикаПосещений</reports>
+  <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
